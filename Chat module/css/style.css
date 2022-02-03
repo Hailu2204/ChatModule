@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.login{
+    text-align: center;
+    font-size: large;
+    color: red;
+    background-color: aqua;
+
+}
+
+#chatbox{
+    width: 1000px;
+    margin: 10px auto;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.chatarea{
+    width: 70%;
+    margin: 10px auto;
+    background-color: azure;
+}
+
+#chat{
+    min-height: 500px;
+    height: 500px;
+    overflow: auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.materialize-textarea{
+    
+    border: 1px solid black !important;
+    margin-top: 10px !important;
+    padding: 10px !important;
+    min-height: 100px  !important;
+}
+
+.single-msg{
+    padding: 5px 0px;
+    border-bottom: 1px solid olive;
+}
+.single-msg span{
+    float: right;
+}
